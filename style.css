@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+    padding: 10px;
+}
+.row{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    color: black;
+    transition: 0.3s ease-in;
+}
+ul{
+    list-style: none;
+}
+.log-in{
+    padding: 15px 20px;
+    cursor: pointer;
+    color: rgb(94, 94, 223);
+    background-color: transparent;
+    border: 1px solid rgb(94, 94, 223);
+    border-radius: 3px;
+    font-weight: bold;
+}
+.get-started{
+    margin-left: 10px;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: rgb(94, 94, 223);
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(94, 94, 223);
+}
+.get-started:hover{
+    border: 1px solid rgb(94, 94, 223);
+    color: rgb(94, 94, 223);
+    background-color: white;
+    transition: 0.3s ease-in;
+}
+
+
+/* First Section */
+
+.hero-container{
+    display: flex;
+}
+#first-section{
+    margin: auto;
+    margin-top: 4rem;
+    width: 80%;
+    height: 90vh;
+}
+h1{
+    font-size: 6rem;
+}
+.hero-content{
+    width: 50%;
+    height: 60vh;
+}
+.first{
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+.btn{
+    margin-top: 30px;
+}
+
+
+/* Second Section */
+
+#second-section{
+    margin: auto;
+    width: 80%;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    height: 20px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+}
+.main-img{
+    width: 30rem;
+}
+.main-image{
+    margin-top: 10rem;
+    width: 50%;
+    height: auto;
+}
+.main-content{
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 35%;
+    margin-left: 5rem;
+}
+.title{
+    margin-top: 8rem;
+    margin-left: 2rem;
+    font-size: 3.5rem;
+}
+.text{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    color: gray;
+}
+
+/* pricing */
+#pricing{
+    margin: auto;
+    width: 80%;
+    height: 100vh;
+}
+.packets{
+    width: auto;
+    height: 3.5rem;
+    text-align: center;
+}
+.packet-title{
+    font-size: 3rem;
+}
+.card-container{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.card{
+    margin-top: 3rem;
+    width: 20rem;
+    height: 70vh;
+    text-align: center;
+}
+.card-middle{
+    margin-top: 3rem;
+    width: 20rem;
+    height: 70vh;
+    text-align: center;
+    background-color: rgb(94, 94, 223);
+}
+.head{
+    margin-top: 3rem;
+    color: gray;
+    font-size: 1.3rem;
+}
+.head-middle{
+    margin-top: 3rem;
+    color: white;
+    font-size: 1.3rem;
+}
+.pack{
+    color: gray;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+.pack-middle{
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+.fee{
+    margin-top: 3rem;
+    font-size: 3rem;
+}
+.fee-middle{
+    margin-top: 3rem;
+    font-size: 3rem;
+    color: white;
+}
+.card-btn{
+    padding: 15px 20px;
+    margin-top: 2rem;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: white;
+    color: rgb(94, 94, 223);
+    border: 1px solid rgb(94, 94, 223);
+}
+.card-btn:hover{
+    background-color: rgb(94, 94, 223);
+    transition: 0.3s ease-in;
+    color: white;
+}
+.card-btn-middle{
+    width: 10rem;
+    padding: 15px 20px;
+    margin-top: 2rem;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: white;
+    color: rgb(94, 94, 223);
+    border: 1px solid rgb(94, 94, 223);
+}
+.card-btn-middle:hover{
+    background-color: rgb(0, 225, 255);
+    transition: 0.3s ease-in;
+}
+
+
+/* Contact */
+
+#contact{
+    margin: auto;
+    width: 80%;
+    height: 80vh;
+}
+.contact-container{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 40vh;
+    background-color: rgb(22, 32, 52);
+}
+.contact-text{
+    width: 50%;
+    margin: auto 3rem auto;
+}
+.contact-title{
+    color: white;
+    font-size: 3rem;
+}
+.contact-button{
+    margin: auto 3rem auto;
+}
+.contact-btn{
+    width: 10rem;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: rgb(94, 94, 223);
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(94, 94, 223);
+}
+.contact-btn:hover{
+    background-color: white;
+    color: rgb(94, 94, 223);
+    transition: 0.3s ease-in;
+}
+
+
+/* Footer */
+
+#footer{
+    margin: auto;
+    width: 80%;
+    height: 50vh;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+.footer-card{
+    flex-direction: row;
+    width: 20%;
+    height: 40vh;
+}
+.footer-h2{
+    font-size: 1.4rem;
+}
+.footer-first{
+    color: gray;
+    margin-top: 1.5rem;
+}
+.footer-second{
+    color: gray;
+    margin-top: 0.7rem;
+}
+svg{
+    margin-top: 1rem;
+}
+svg:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+}
